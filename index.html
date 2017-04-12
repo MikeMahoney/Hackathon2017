@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Hackathon - Rhythm Game</title>
+        <script src="lib/jquery-3.2.0.min.js"></script>
+        <script src="lib/babylon.custom.js"></script>
+        <style>
+            html, body {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            #scoreWrapper {
+                position: fixed;
+                padding-left: 50px;
+                color: white;
+                font-family: "Helvatica", "Arial", sans-serifs;
+            }
+
+            #scoreTitle {
+                float: left;
+                padding-right: 10px;
+            }
+
+            #score {
+                float: right;
+            }
+
+            #renderCanvas {
+                width: 100%;
+                height: 100%;
+                touch-action: none;
+            }
+        </style>
+    </head>
+<body>
+    <div id="canvasZone">
+        <div id="scoreWrapper">
+            <h2 id="scoreTitle">SCORE: </h2>
+            <h2 id="score">0</h2>
+        </div>
+        <canvas id="renderCanvas"></canvas>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
