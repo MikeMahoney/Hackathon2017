@@ -8,12 +8,14 @@
 	Python World class constructor completed
 	processing begun of mesh:  Model
 		processing begun of Standard material:  FrontCol
-		num positions      :  21
-		num normals        :  21
-		num uvs            :  42
+		processing begun of Standard material:  Material.001
+		processing begun of multimaterial:  star.Multimaterial#0
+		num positions      :  812
+		num normals        :  812
+		num uvs            :  1624
 		num uvs2           :  0
 		num colors         :  0
-		num indices        :  36
+		num indices        :  1644
 	processing begun of mesh:  Camera.001
 		WARNING: No materials have been assigned: 
 		num positions      :  0
@@ -27,4 +29,4 @@
 ========= Writing of scene file started =========
 ========= Writing of scene file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.0023 secs
+elapsed time:  0 min, 0.0208 secs

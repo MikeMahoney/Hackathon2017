@@ -4,10 +4,12 @@
 		selected layers only:  false
 		flat shading entire scene:  false
 		inline textures:  false
-		texture directory:  /Users/Teamwork/Hackathon/
+		texture directory:  /Users/Teamwork/Dev/project-manager/Hackathon/models/
 	Python World class constructor completed
 	processing begun of mesh:  Model
 		processing begun of Standard material:  FrontCol
+		processing begun of Standard material:  Material.001
+		processing begun of multimaterial:  polygonTunnel.Multimaterial#0
 		num positions      :  72
 		num normals        :  72
 		num uvs            :  144
@@ -27,4 +29,4 @@
 ========= Writing of scene file started =========
 ========= Writing of scene file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.0129 secs
+elapsed time:  0 min, 0.0041 secs
